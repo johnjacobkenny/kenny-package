@@ -1,11 +1,13 @@
 {
   "name": "kenny-package",
-  "version": "1.0.3",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release",
+    "cz": "git-cz"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +15,20 @@
   "devDependencies": {
     "@types/jest": "^26.0.7",
     "@types/node": "^14.0.26",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
     "jest": "^26.1.0",
+    "semantic-release": "^17.1.1",
     "ts-jest": "^26.1.3",
     "typescript": "^3.9.7"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/johnjacobkenny/kenny-package.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
