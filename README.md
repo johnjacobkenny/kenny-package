@@ -4,4 +4,6 @@ This repository was created to learn about creating an automated build pipeline 
 
 This repo was built following this article on setting up semantic-release and commitizen. https://medium.com/@schalkneethling/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f
 
+Uses travis CI to run the builds.
+
 See it in npm at https://www.npmjs.com/package/kenny-package
